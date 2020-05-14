@@ -1,2 +1,4 @@
 <h1><%= @item.name %></h1>
 <p><%= @item.description %></p>
+<%= link_to "Edit Item", edit_item_path(@item) %>
+<%= link_to , destroy_item_path(@item) %>
